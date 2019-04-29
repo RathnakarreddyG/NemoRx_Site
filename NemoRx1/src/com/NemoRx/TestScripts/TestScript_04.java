@@ -1,8 +1,5 @@
 package com.NemoRx.TestScripts;
 
-
-
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,29 +7,32 @@ import org.testng.annotations.Test;
 import com.NemoRx.lib.General;
 import com.NemoRx.lib.Global;
 
-public class TestScript_01 extends Global{
+public class TestScript_04 {
+
 	@BeforeTest
 	public static void Open() throws Exception {
 		Global.OpenBrowser();
 	}
-    @AfterTest
-    public static void Close(){
-    	driver.quit();
-    }
+
 	@Test(dataProvider = "getdata")
-	public static void log(String Usernamee,String password1 ) throws Exception {
+	public static void SearchPatientAddMedication(String Usernamee,String password1 ) throws Exception {
 		
 		
 		Global.LoginInto(Usernamee, password1);
-		General.sideMenu();
-		Global.Logout();
-		Thread.sleep(7000);
-		
+		General.SearchPatient("raju");//patient name
+		General.AddMedication("ha");//Drug
 		
 	}
 	@DataProvider
 	public Object[][] getdata(){
-		Object[][] credentials = {{"ratnakarg@pronixinc.com","W&lcome@2019"},{"phani@pronixinc.com","W&lcome@2019"}};
+		Object[][] credentials = {
+				{"ratnakarg@pronixinc.com","W&lcome@2019"}};
+		
+		System.out.println("");
 		return credentials;
+		
 	}
+	
+	
+	
 }

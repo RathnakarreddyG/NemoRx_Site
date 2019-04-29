@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 public class Global {
 
@@ -16,7 +17,7 @@ public class Global {
 	   public static By LoginPath = By.id("okta-signin-submit");
 	   public static By SearchPath = By.xpath("//input[@class='jss68 jss53 jss73 jss74']");
 	public static void OpenBrowser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:\\Rathna Pronix\\Softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "ChromeDriverPath/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://app-dev.nemorx.com/");Thread.sleep(5000);
@@ -25,8 +26,8 @@ public class Global {
 		driver.findElement(UserPath).sendKeys(user);System.out.println("User Name-"+user);
 		driver.findElement(PassPath).sendKeys(pass);System.out.println("User Password-"+pass);
 		driver.findElement(LoginPath).click();Thread.sleep(10000);
-		System.out.println("Successfully login completed");
-		System.out.println("Page Title-"+driver.getTitle());
+		System.out.println("Successfully login completed");Reporter.log("Successfully login completed");
+		System.out.println("Page Title-"+driver.getTitle());Reporter.log("Page Title-"+driver.getTitle());
 		}
 	public static void Logout(){
 		WebDriverWait wait = new WebDriverWait(driver,10);
@@ -34,7 +35,7 @@ public class Global {
 		driver.findElement(By.xpath("//span[contains(.,'Logout')]")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(.,'Yes')]")));
 		driver.findElement(By.xpath("//span[contains(.,'Yes')]")).click();
-		System.out.println("Logout Successfully completed");
+		System.out.println("Logout Successfully completed");Reporter.log("Logout Successfully completed");
 	}
 	
 	
