@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[Profile Link From Side Menu Successfully opened]]>
+    </line>
+    <line>
+      <![CDATA[Profile Link From Side Menu Successfully opened]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110369" started-at="2019-04-29T09:37:11Z" finished-at="2019-04-29T09:39:02Z">
+  <suite name="Default suite" duration-ms="107042" started-at="2019-04-29T11:14:31Z" finished-at="2019-04-29T11:16:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110369" started-at="2019-04-29T09:37:11Z" finished-at="2019-04-29T09:39:02Z">
-      <class name="com.NemoRx.TestScripts.TestScript_02">
-        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@555590]" name="Open" is-config="true" duration-ms="23727" started-at="2019-04-29T15:07:11Z" finished-at="2019-04-29T15:07:35Z">
+    <test name="Default test" duration-ms="107042" started-at="2019-04-29T11:14:31Z" finished-at="2019-04-29T11:16:18Z">
+      <class name="com.NemoRx.TestScripts.TestScript_03">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@555590]" name="Open" is-config="true" duration-ms="22075" started-at="2019-04-29T16:44:31Z" finished-at="2019-04-29T16:44:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open -->
-        <test-method status="PASS" signature="AddingWorkHour_deletingWorkHour(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@555590]" name="AddingWorkHour_deletingWorkHour" duration-ms="30565" started-at="2019-04-29T15:07:35Z" data-provider="getdata" finished-at="2019-04-29T15:08:06Z">
+        <test-method status="PASS" signature="Log(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@555590]" name="Log" duration-ms="42724" started-at="2019-04-29T16:44:53Z" data-provider="getdata" finished-at="2019-04-29T16:45:36Z">
           <params>
             <param index="0">
               <value>
@@ -25,9 +31,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Profile Link From Side Menu Successfully opened]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- AddingWorkHour_deletingWorkHour -->
-        <test-method status="PASS" signature="AddingWorkHour_deletingWorkHour(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@555590]" name="AddingWorkHour_deletingWorkHour" duration-ms="27949" started-at="2019-04-29T15:08:06Z" data-provider="getdata" finished-at="2019-04-29T15:08:34Z">
+        </test-method> <!-- Log -->
+        <test-method status="PASS" signature="Log(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@555590]" name="Log" duration-ms="42236" started-at="2019-04-29T16:45:36Z" data-provider="getdata" finished-at="2019-04-29T16:46:18Z">
           <params>
             <param index="0">
               <value>
@@ -41,25 +50,12 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Profile Link From Side Menu Successfully opened]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- AddingWorkHour_deletingWorkHour -->
-        <test-method status="PASS" signature="AddingWorkHour_deletingWorkHour(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@555590]" name="AddingWorkHour_deletingWorkHour" duration-ms="28120" started-at="2019-04-29T15:08:34Z" data-provider="getdata" finished-at="2019-04-29T15:09:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[webtest39@nemohealth.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Like2Bike!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddingWorkHour_deletingWorkHour -->
-      </class> <!-- com.NemoRx.TestScripts.TestScript_02 -->
+        </test-method> <!-- Log -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_03 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

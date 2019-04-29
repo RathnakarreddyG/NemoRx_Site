@@ -20,14 +20,27 @@ public class TestScript_03 {
 		
 		Global.LoginInto(Usernamee, password1);
 		General.sideMenu();
-		Global.Logout();
+		General.AuditItems();
+		General.sideMenu();
+		General.Grant_requests();
+		General.sideMenu();
+		General.ProfileLink();
+		General.sideMenu();
+		General.ViewExportSignedPriscriptions();
+		General.sideMenu();
+		General.WorkingHours();
+		General.sideMenu();
+		General.Logout();
 		Thread.sleep(7000);
 		
 		
 	}
 	@DataProvider
 	public Object[][] getdata(){
-		Object[][] credentials = {{"ratnakarg@pronixinc.com","W&lcome@2019"},{"phani@pronixinc.com","W&lcome@2019"}};
+		Object[][] credentials = {
+				{"ratnakarg@pronixinc.com","W&lcome@2019"},
+				{"phani@pronixinc.com","W&lcome@2019"},
+				{"webtest39@nemohealth.com","Like2Bike!"}};
 		return credentials;
 	}
 
