@@ -2,25 +2,28 @@ package com.NemoRx.TestScripts;
 
 
 
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeClass;
+
+import org.testng.annotations.DataProvider;
+
 
 import com.NemoRx.lib.General;
 import com.NemoRx.lib.Global;
 
 public class TestScript_01 extends Global{
-	@BeforeTest
+	@BeforeClass
 	public static void Open() throws Exception {
 		Global.OpenBrowser();
 	}
-    @AfterTest
+    @AfterClass
     public static void Close(){
     	driver.quit();
     }
-	@Test(dataProvider = "getdata")
-	public static void log(String Usernamee,String password1 ) throws Exception {
+	@Test(priority = 1,dataProvider = "getdata")
+	public static void loginAndLogout(String Usernamee,String password1 ) throws Exception {
 		
 		
 		Global.LoginInto(Usernamee, password1);

@@ -1,20 +1,28 @@
 package com.NemoRx.TestScripts;
 
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeClass;
+
+import org.testng.annotations.DataProvider;
+
 
 import com.NemoRx.lib.General;
 import com.NemoRx.lib.Global;
 
-public class TestScript_02 {
+public class TestScript_02 extends General {
 
-	@BeforeTest
+	@BeforeClass
 	public static void Open() throws Exception {
 		Global.OpenBrowser();
 	}
+	@AfterClass
+	public static void Close(){
+		driver.quit();
+	}
 
-	@Test(dataProvider = "getdata")
+	@Test(priority = 2,dataProvider = "getdata")
 	public static void AddingWorkHour_deletingWorkHour(String Usernamee,String password1 ) throws Exception {
 		
 		

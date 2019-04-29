@@ -1,26 +1,36 @@
 package com.NemoRx.TestScripts;
 
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+
+
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+
+import org.testng.annotations.BeforeClass;
+
+import org.testng.annotations.DataProvider;
+
 
 import com.NemoRx.lib.General;
 import com.NemoRx.lib.Global;
 
-public class TestScript_04 {
+public class TestScript_04 extends General{
 
-	@BeforeTest
+	@BeforeClass
 	public static void Open() throws Exception {
 		Global.OpenBrowser();
 	}
+	@AfterClass
+	public static void Close(){
+		driver.quit();
+	}
 
-	@Test(dataProvider = "getdata")
+	@Test(priority = 4,dataProvider = "getdata")
 	public static void SearchPatientAddMedication(String Usernamee,String password1 ) throws Exception {
 		
 		
 		Global.LoginInto(Usernamee, password1);
-		General.SearchPatient("raju");//patient name
-		General.AddMedication("ha");//Drug
+		General.SearchPatient("joan");//patient name
+		General.AddMedication("b");//Drug
 		
 	}
 	@DataProvider

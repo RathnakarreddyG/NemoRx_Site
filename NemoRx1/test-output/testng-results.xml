@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Successfully login completed]]>
@@ -8,28 +8,31 @@
       <![CDATA[Page Title-NEMORx]]>
     </line>
     <line>
-      <![CDATA[Logout Successfully completed]]>
+      <![CDATA[Page 2 Title==NEMORx]]>
     </line>
     <line>
-      <![CDATA[Successfully login completed]]>
+      <![CDATA[Name of patient==joan]]>
     </line>
     <line>
-      <![CDATA[Page Title-NEMORx]]>
+      <![CDATA[Page 3 Title==NEMORx]]>
     </line>
     <line>
-      <![CDATA[Logout Successfully completed]]>
+      <![CDATA[Drug Selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfully added medication. Would you like to add another medication?]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63332" started-at="2019-04-29T16:00:48Z" finished-at="2019-04-29T16:01:51Z">
+  <suite name="Default suite" duration-ms="45009" started-at="2019-04-29T17:20:19Z" finished-at="2019-04-29T17:21:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63332" started-at="2019-04-29T16:00:48Z" finished-at="2019-04-29T16:01:51Z">
-      <class name="com.NemoRx.TestScripts.TestScript_01">
-        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@44e81672]" name="Open" is-config="true" duration-ms="21734" started-at="2019-04-29T21:30:48Z" finished-at="2019-04-29T21:31:09Z">
+    <test name="Default test" duration-ms="45009" started-at="2019-04-29T17:20:19Z" finished-at="2019-04-29T17:21:04Z">
+      <class name="com.NemoRx.TestScripts.TestScript_04">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Open" is-config="true" duration-ms="19796" started-at="2019-04-29T22:50:19Z" finished-at="2019-04-29T22:50:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open -->
-        <test-method status="PASS" signature="log(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@44e81672]" name="log" duration-ms="21349" started-at="2019-04-29T21:31:09Z" data-provider="getdata" finished-at="2019-04-29T21:31:31Z">
+        <test-method status="PASS" signature="SearchPatientAddMedication(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="SearchPatientAddMedication" duration-ms="24528" started-at="2019-04-29T22:50:39Z" data-provider="getdata" finished-at="2019-04-29T22:51:03Z">
           <params>
             <param index="0">
               <value>
@@ -50,40 +53,27 @@
               <![CDATA[Page Title-NEMORx]]>
             </line>
             <line>
-              <![CDATA[Logout Successfully completed]]>
+              <![CDATA[Page 2 Title==NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Name of patient==joan]]>
+            </line>
+            <line>
+              <![CDATA[Page 3 Title==NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Drug Selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfully added medication. Would you like to add another medication?]]>
             </line>
           </reporter-output>
-        </test-method> <!-- log -->
-        <test-method status="PASS" signature="log(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@44e81672]" name="log" duration-ms="19405" started-at="2019-04-29T21:31:31Z" data-provider="getdata" finished-at="2019-04-29T21:31:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[phani@pronixinc.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[W&lcome@2019]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Successfully login completed]]>
-            </line>
-            <line>
-              <![CDATA[Page Title-NEMORx]]>
-            </line>
-            <line>
-              <![CDATA[Logout Successfully completed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- log -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@44e81672]" name="Close" is-config="true" duration-ms="837" started-at="2019-04-29T21:31:50Z" finished-at="2019-04-29T21:31:51Z">
+        </test-method> <!-- SearchPatientAddMedication -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Close" is-config="true" duration-ms="674" started-at="2019-04-29T22:51:03Z" finished-at="2019-04-29T22:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-      </class> <!-- com.NemoRx.TestScripts.TestScript_01 -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_04 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

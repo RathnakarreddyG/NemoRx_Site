@@ -3,7 +3,9 @@ package com.NemoRx.lib;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
-
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -124,15 +126,18 @@ public class General extends Global{
 			r.keyRelease(KeyEvent.VK_TAB);r.keyPress(KeyEvent.VK_ENTER);r.keyRelease(KeyEvent.VK_ENTER);Thread.sleep(3000);
 			String drug1 = driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[3]/div/div[2]/div/div[1]/div/div/input")).getText();
 			System.out.println("Selected Drug--"+drug1);
-			driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[3]/div/div[2]/div/div[3]/div/div/input")).sendKeys("04/29/2019");
+			DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+			Date date = new Date();
+			String stDate = dateFormat.format(date);
+			driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[3]/div/div[2]/div/div[3]/div/div/input")).sendKeys(stDate);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[3]")));
-			driver.findElement(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[3]")).sendKeys("05/29/2019");
-			driver.findElement(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[4]")).sendKeys("04/29/2019");
+			driver.findElement(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[3]")).sendKeys(stDate);
+			driver.findElement(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[4]")).sendKeys(stDate);
 			driver.findElement(By.xpath("//input[contains(@name,'sig')]")).sendKeys("2");
 			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'Submit')]")).click();
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")));
 			String ConfirmMessage = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")).getText();
-			System.out.println(ConfirmMessage);
+			System.out.println(ConfirmMessage);Reporter.log(ConfirmMessage);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss165'][contains(.,'No')]")));
 			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'No')]")).click();
 		}
