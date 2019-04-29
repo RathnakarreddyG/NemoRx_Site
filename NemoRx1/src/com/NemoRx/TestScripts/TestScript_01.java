@@ -16,7 +16,7 @@ public class TestScript_01 extends Global{
 	}
 
 	@Test(dataProvider = "getdata")
-	public static void LoginAndLogout(String Usernamee,String password1 ) throws Exception {
+	public static void VerifyingLinksFromSideMenu(String Usernamee,String password1 ) throws Exception {
 		
 		
 		Global.LoginInto(Usernamee, password1);
