@@ -32,7 +32,9 @@ public class TestScript_02 {
 				{"ratnakarg@pronixinc.com","W&lcome@2019"},
 				{"phani@pronixinc.com","W&lcome@2019"},
 				{"webtest39@nemohealth.com","Like2Bike!"}};
+		System.out.println("");
 		return credentials;
+		
 	}
 	
 	
