@@ -1,6 +1,7 @@
 package com.NemoRx.TestScripts;
 
 
+import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -22,6 +23,7 @@ public class TestScript_01 extends Global{
 		General.sideMenu();
 		Global.Logout();
 		Thread.sleep(7000);
+		Reporter.log("");
 		
 	}
 	@DataProvider
