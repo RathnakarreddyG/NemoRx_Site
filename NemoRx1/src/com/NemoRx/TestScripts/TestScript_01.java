@@ -23,7 +23,7 @@ public class TestScript_01 extends Global{
     	driver.quit();
     }
 	@Test(priority = 1,dataProvider = "getdata")
-	public static void loginAndLogout(String Usernamee,String password1 ) throws Exception {
+	public static void LoginAndLogout(String Usernamee,String password1 ) throws Exception {
 		
 		
 		Global.LoginInto(Usernamee, password1);
