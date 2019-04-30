@@ -1,19 +1,16 @@
 package com.NemoRx.TestScripts;
 
-
-
-import org.testng.annotations.Test;
 import org.testng.annotations.AfterClass;
-
 import org.testng.annotations.BeforeClass;
-
 import org.testng.annotations.DataProvider;
-
+import org.testng.annotations.Test;
 
 import com.NemoRx.lib.General;
+import com.NemoRx.lib.General1;
 import com.NemoRx.lib.Global;
 
-public class TestScript_01 extends Global{
+public class TestScript_05 extends Global{
+	
 	@BeforeClass
 	public static void Open() throws Exception {
 		Global.OpenBrowser();
@@ -22,15 +19,15 @@ public class TestScript_01 extends Global{
     public static void Close(){
     	driver.quit();
     }
-    
-	@Test(priority = 1,dataProvider = "getdata")
-	public static void LoginAndLogout(String Usernamee,String password1 ) throws Exception {
+	@Test(priority = 5,dataProvider = "getdata")
+	public static void RxPrintSettingsValidation(String Usernamee,String password1 ) throws Exception {
 		
 		
 		Global.LoginInto(Usernamee, password1);
 		General.sideMenu();
+		General1.RxPrintSetting();
 		Global.Logout();
-		Thread.sleep(7000);
+		Thread.sleep(5000);
 		
 		
 	}
@@ -40,3 +37,6 @@ public class TestScript_01 extends Global{
 		return credentials;
 	}
 }
+
+
+
