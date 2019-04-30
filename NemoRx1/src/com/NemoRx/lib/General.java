@@ -49,7 +49,7 @@ public class General extends Global{
 			}
 			driver.navigate().back();
 			System.out.println("Profile Link From Side Menu Successfully opened");Reporter.log("Profile Link From Side Menu Successfully opened");
-			Reporter.log("Profile Link From Side Menu Successfully opened");Reporter.log("Profile Link From Side Menu Successfully opened");
+			
 			Thread.sleep(3000);
 			
 		}

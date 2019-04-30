@@ -28,6 +28,12 @@
           <include name="Close"/>
         </methods>
       </class> <!-- com.NemoRx.TestScripts.TestScript_03 -->
+      <class name="com.NemoRx.TestScripts.TestScript_05">
+        <methods>
+          <include name="Open"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- com.NemoRx.TestScripts.TestScript_05 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 30 10:40:14 IST 2019</td>
+<td>Started on:</td><td>Tue Apr 30 17:56:12 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>533 seconds (533027 ms)</td>
+<tr><td>Total time:</td><td>533 seconds (533785 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,124 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.NemoRx.TestScripts.TestScript_04.SearchPatientAddMedication()'><b>SearchPatientAddMedication</b><br>Test class: com.NemoRx.TestScripts.TestScript_04<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-1827371870" onClick='toggleBox("Output-1827371870", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1827371870" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1827371870">
-Successfully login completed<br/>
-Page Title-NEMORx<br/>
-Page 2 Title==NEMORx<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;root&quot;]/div/header/div/div[1]/div[2]/div/ul/div (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.NemoRx.lib.General.SearchPatient(General.java:25)
-	at com.NemoRx.TestScripts.TestScript_04.SearchPatientAddMedication(TestScript_04.java:32)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div/header/div/div[1]/div[2]/div/ul/div&quot;}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;RATNAKAR-LAPTOP&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50750}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 088c60eab4c2bbe99b3f18d7d8cd7ebb
-*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div/header/div/div[1]/div[2]/div/ul/div}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 26 more
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1827371870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1827371870'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;root&quot;]/div/header/div/div[1]/div[2]/div/ul/div (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.NemoRx.lib.General.SearchPatient(General.java:25)
-	at com.NemoRx.TestScripts.TestScript_04.SearchPatientAddMedication(TestScript_04.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div/header/div/div[1]/div[2]/div/ul/div&quot;}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;RATNAKAR-LAPTOP&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50750}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 088c60eab4c2bbe99b3f18d7d8cd7ebb
-*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div/header/div/div[1]/div[2]/div/ul/div}
-	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 26 more
-</pre></div></td>
-<td>66</td>
-<td>com.NemoRx.TestScripts.TestScript_04@66133adc</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -194,10 +76,10 @@ Session ID: 088c60eab4c2bbe99b3f18d7d8cd7ebb
 </tr>
 <tr>
 <td title='com.NemoRx.TestScripts.TestScript_02.AddingWorkHour_deletingWorkHour()'><b>AddingWorkHour_deletingWorkHour</b><br>Test class: com.NemoRx.TestScripts.TestScript_02<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-1921242091" onClick='toggleBox("Output-1921242091", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1670313965" onClick='toggleBox("Output-1670313965", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1921242091" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1921242091">
+<a href="#Output-1670313965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1670313965">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
 Working hours link from side menu succesfully opened<br/>
@@ -207,14 +89,14 @@ Logout Successfully completed<br/>
 </div>
 </td>
 <td></td>
-<td>36</td>
-<td>com.NemoRx.TestScripts.TestScript_02@6aceb1a5</td></tr>
+<td>28</td>
+<td>com.NemoRx.TestScripts.TestScript_02@2d6d8735</td></tr>
 <tr>
 <td title='com.NemoRx.TestScripts.TestScript_02.AddingWorkHour_deletingWorkHour()'><b>AddingWorkHour_deletingWorkHour</b><br>Test class: com.NemoRx.TestScripts.TestScript_02<br>Parameters: phani@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-643489709" onClick='toggleBox("Output-643489709", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-549496397" onClick='toggleBox("Output-549496397", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-643489709" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-643489709">
+<a href="#Output-549496397" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-549496397">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
 Working hours link from side menu succesfully opened<br/>
@@ -224,14 +106,14 @@ Logout Successfully completed<br/>
 </div>
 </td>
 <td></td>
-<td>28</td>
-<td>com.NemoRx.TestScripts.TestScript_02@6aceb1a5</td></tr>
+<td>27</td>
+<td>com.NemoRx.TestScripts.TestScript_02@2d6d8735</td></tr>
 <tr>
 <td title='com.NemoRx.TestScripts.TestScript_02.AddingWorkHour_deletingWorkHour()'><b>AddingWorkHour_deletingWorkHour</b><br>Test class: com.NemoRx.TestScripts.TestScript_02<br>Parameters: webtest39@nemohealth.com, Like2Bike!<br/>
-<a href="#Output-598357562" onClick='toggleBox("Output-598357562", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1517328406" onClick='toggleBox("Output-1517328406", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-598357562" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-598357562">
+<a href="#Output-1517328406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1517328406">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
 Working hours link from side menu succesfully opened<br/>
@@ -242,40 +124,117 @@ Logout Successfully completed<br/>
 </td>
 <td></td>
 <td>28</td>
-<td>com.NemoRx.TestScripts.TestScript_02@6aceb1a5</td></tr>
+<td>com.NemoRx.TestScripts.TestScript_02@2d6d8735</td></tr>
 <tr>
-<td title='com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu()'><b>VerifyingLinksFromSideMenu</b><br>Test class: com.NemoRx.TestScripts.TestScript_03<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-259251414" onClick='toggleBox("Output-259251414", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.NemoRx.TestScripts.TestScript_01.LoginAndLogout()'><b>LoginAndLogout</b><br>Test class: com.NemoRx.TestScripts.TestScript_01<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-1030684756" onClick='toggleBox("Output-1030684756", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-259251414" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-259251414">
+<a href="#Output-1030684756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1030684756">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
-Audit items link from side menu succesfully opened<br/>
-Grant request link from side succesfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
-View/Export Signed Prescriptions link from side menu opened Succesfully<br/>
-Working hours link from side menu succesfully opened<br/>
 Logout Successfully completed<br/>
 </div>
 </td>
 <td></td>
-<td>46</td>
-<td>com.NemoRx.TestScripts.TestScript_03@2d6d8735</td></tr>
+<td>20</td>
+<td>com.NemoRx.TestScripts.TestScript_01@6aceb1a5</td></tr>
 <tr>
-<td title='com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu()'><b>VerifyingLinksFromSideMenu</b><br>Test class: com.NemoRx.TestScripts.TestScript_03<br>Parameters: phani@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-1609086753" onClick='toggleBox("Output-1609086753", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.NemoRx.TestScripts.TestScript_01.LoginAndLogout()'><b>LoginAndLogout</b><br>Test class: com.NemoRx.TestScripts.TestScript_01<br>Parameters: phani@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-402009651" onClick='toggleBox("Output-402009651", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1609086753" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1609086753">
+<a href="#Output-402009651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402009651">
+Successfully login completed<br/>
+Page Title-NEMORx<br/>
+Logout Successfully completed<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.NemoRx.TestScripts.TestScript_01@6aceb1a5</td></tr>
+<tr>
+<td title='com.NemoRx.TestScripts.TestScript_05.RxPrintSettingsValidation()'><b>RxPrintSettingsValidation</b><br>Test class: com.NemoRx.TestScripts.TestScript_05<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-1210600718" onClick='toggleBox("Output-1210600718", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1210600718" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1210600718">
+Successfully login completed<br/>
+Page Title-NEMORx<br/>
+Capitalize Prescription<br/>
+Print Patient's Address<br/>
+Two Signature Lines<br/>
+Initials Signature Line<br/>
+Print Title<br/>
+Print DPS<br/>
+Print NPI<br/>
+Print State License Number<br/>
+Print Comments<br/>
+Unchecked Capitalize Prescription<br/>
+Unchecked Initials Signature Line<br/>
+Unchecked Print DPS<br/>
+Unchecked Print Comments<br/>
+Logout Successfully completed<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.NemoRx.TestScripts.TestScript_05@12bc6874</td></tr>
+<tr>
+<td title='com.NemoRx.TestScripts.TestScript_05.RxPrintSettingsValidation()'><b>RxPrintSettingsValidation</b><br>Test class: com.NemoRx.TestScripts.TestScript_05<br>Parameters: phani@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-31366484" onClick='toggleBox("Output-31366484", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31366484" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31366484">
+Successfully login completed<br/>
+Page Title-NEMORx<br/>
+Capitalize Prescription<br/>
+Print Patient's Address<br/>
+Two Signature Lines<br/>
+Initials Signature Line<br/>
+Print Title<br/>
+Print DPS<br/>
+Print NPI<br/>
+Print State License Number<br/>
+Print Comments<br/>
+Unchecked Capitalize Prescription<br/>
+Unchecked Initials Signature Line<br/>
+Unchecked Print DPS<br/>
+Unchecked Print Comments<br/>
+Logout Successfully completed<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>com.NemoRx.TestScripts.TestScript_05@12bc6874</td></tr>
+<tr>
+<td title='com.NemoRx.TestScripts.TestScript_04.SearchPatientAddMedication()'><b>SearchPatientAddMedication</b><br>Test class: com.NemoRx.TestScripts.TestScript_04<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-501036152" onClick='toggleBox("Output-501036152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-501036152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-501036152">
+Successfully login completed<br/>
+Page Title-NEMORx<br/>
+Page 2 Title==NEMORx<br/>
+Name of patient==rathnaa<br/>
+Page 3 Title==NEMORx<br/>
+Drug Selected<br/>
+Successfully added medication. Would you like to add another medication?<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.NemoRx.TestScripts.TestScript_04@7bfcd12c</td></tr>
+<tr>
+<td title='com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu()'><b>VerifyingLinksFromSideMenu</b><br>Test class: com.NemoRx.TestScripts.TestScript_03<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-1419332030" onClick='toggleBox("Output-1419332030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1419332030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1419332030">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
 Audit items link from side menu succesfully opened<br/>
 Grant request link from side succesfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
 Profile Link From Side Menu Successfully opened<br/>
 View/Export Signed Prescriptions link from side menu opened Succesfully<br/>
 Working hours link from side menu succesfully opened<br/>
@@ -284,19 +243,17 @@ Logout Successfully completed<br/>
 </td>
 <td></td>
 <td>43</td>
-<td>com.NemoRx.TestScripts.TestScript_03@2d6d8735</td></tr>
+<td>com.NemoRx.TestScripts.TestScript_03@ba4d54</td></tr>
 <tr>
-<td title='com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu()'><b>VerifyingLinksFromSideMenu</b><br>Test class: com.NemoRx.TestScripts.TestScript_03<br>Parameters: webtest39@nemohealth.com, Like2Bike!<br/>
-<a href="#Output-1008608255" onClick='toggleBox("Output-1008608255", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu()'><b>VerifyingLinksFromSideMenu</b><br>Test class: com.NemoRx.TestScripts.TestScript_03<br>Parameters: phani@pronixinc.com, W&lcome@2019<br/>
+<a href="#Output-691779749" onClick='toggleBox("Output-691779749", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1008608255" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1008608255">
+<a href="#Output-691779749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-691779749">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
 Audit items link from side menu succesfully opened<br/>
 Grant request link from side succesfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
-Profile Link From Side Menu Successfully opened<br/>
 Profile Link From Side Menu Successfully opened<br/>
 View/Export Signed Prescriptions link from side menu opened Succesfully<br/>
 Working hours link from side menu succesfully opened<br/>
@@ -304,36 +261,27 @@ Logout Successfully completed<br/>
 </div>
 </td>
 <td></td>
-<td>44</td>
-<td>com.NemoRx.TestScripts.TestScript_03@2d6d8735</td></tr>
+<td>42</td>
+<td>com.NemoRx.TestScripts.TestScript_03@ba4d54</td></tr>
 <tr>
-<td title='com.NemoRx.TestScripts.TestScript_01.loginAndLogout()'><b>loginAndLogout</b><br>Test class: com.NemoRx.TestScripts.TestScript_01<br>Parameters: ratnakarg@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-710190911" onClick='toggleBox("Output-710190911", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu()'><b>VerifyingLinksFromSideMenu</b><br>Test class: com.NemoRx.TestScripts.TestScript_03<br>Parameters: webtest39@nemohealth.com, Like2Bike!<br/>
+<a href="#Output-1622694817" onClick='toggleBox("Output-1622694817", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-710190911" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-710190911">
+<a href="#Output-1622694817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1622694817">
 Successfully login completed<br/>
 Page Title-NEMORx<br/>
+Audit items link from side menu succesfully opened<br/>
+Grant request link from side succesfully opened<br/>
+Profile Link From Side Menu Successfully opened<br/>
+View/Export Signed Prescriptions link from side menu opened Succesfully<br/>
+Working hours link from side menu succesfully opened<br/>
 Logout Successfully completed<br/>
 </div>
 </td>
 <td></td>
-<td>60</td>
-<td>com.NemoRx.TestScripts.TestScript_01@769c9116</td></tr>
-<tr>
-<td title='com.NemoRx.TestScripts.TestScript_01.loginAndLogout()'><b>loginAndLogout</b><br>Test class: com.NemoRx.TestScripts.TestScript_01<br>Parameters: phani@pronixinc.com, W&lcome@2019<br/>
-<a href="#Output-634297796" onClick='toggleBox("Output-634297796", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-634297796" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-634297796">
-Successfully login completed<br/>
-Page Title-NEMORx<br/>
-Logout Successfully completed<br/>
-</div>
-</td>
-<td></td>
-<td>19</td>
-<td>com.NemoRx.TestScripts.TestScript_01@769c9116</td></tr>
+<td>41</td>
+<td>com.NemoRx.TestScripts.TestScript_03@ba4d54</td></tr>
 </table><p>
 </body>
 </html>

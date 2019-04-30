@@ -29,8 +29,8 @@ public class TestScript_04 extends General{
 		
 		
 		Global.LoginInto(Usernamee, password1);
-		General.SearchPatient("joan");//patient name
-		General.AddMedication("ha");//Drug
+		General.SearchPatient("rathnaa");//patient name
+		General.AddMedication("ta");//Drug
 		
 	}
 	@DataProvider
