@@ -18,13 +18,13 @@ public class RandomBirthdate {
 
 	        int year = randBetween(2001, 2010);
 
-	        gc.set(gc.YEAR, year);
+	        gc.set(Calendar.YEAR, year);
 
-	        int dayOfYear = randBetween(1, gc.getActualMaximum(gc.DAY_OF_YEAR));
+	        int dayOfYear = randBetween(1, gc.getActualMaximum(Calendar.DAY_OF_YEAR));
 
-	        gc.set(gc.DAY_OF_YEAR, dayOfYear);
+	        gc.set(Calendar.DAY_OF_YEAR, dayOfYear);
 
-	        String date = (gc.get(gc.MONTH) + 1)+"/"+gc.get(Calendar.DAY_OF_MONTH)+"/"+gc.get(gc.YEAR);
+	        String date = (gc.get(Calendar.MONTH) + 1)+"/"+gc.get(Calendar.DAY_OF_MONTH)+"/"+gc.get(Calendar.YEAR);
 	        //System.out.println((gc.get(gc.MONTH) + 1)+"/"+gc.get(gc.DAY_OF_MONTH)+"/"+gc.get(gc.YEAR));
 	        return date;
 
