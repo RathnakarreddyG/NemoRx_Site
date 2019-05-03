@@ -14,7 +14,7 @@ public class RandomNames {
 	// consider using a Map<String,Boolean> to say whether the identifier is being used or not 
 	final Set<String> identifiers = new HashSet<String>();
 
-	public String randomIdentifier() {
+	public  String randomIdentifier() {
 	    StringBuilder builder = new StringBuilder();
 	    while(builder.toString().length() == 0) {
 	        int length = rand.nextInt(5)+5;

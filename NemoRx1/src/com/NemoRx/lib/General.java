@@ -134,12 +134,14 @@ public class General extends Global{
 			driver.findElement(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[3]")).sendKeys(stDate);
 			driver.findElement(By.xpath("(//input[contains(@class,'jss68 jss53 jss74')])[4]")).sendKeys(stDate);
 			driver.findElement(By.xpath("//input[contains(@name,'sig')]")).sendKeys("2");
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss165'][contains(.,'Submit')]")));
 			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'Submit')]")).click();
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")));
 			String ConfirmMessage = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")).getText();
 			System.out.println(ConfirmMessage);Reporter.log(ConfirmMessage);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss165'][contains(.,'No')]")));
 			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'No')]")).click();
+			Thread.sleep(3000);
 		}
 		
 	

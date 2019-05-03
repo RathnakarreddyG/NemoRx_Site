@@ -13,7 +13,7 @@ public class RandomNumbers {
 	int m = rand.nextInt(15);
 	m += 2;
 	//System.out.print(n+"/"+m);
-	String number = n+"/"+m;
+	String number = n+"12345"+m;
 	return number;
 	
 }

@@ -16,7 +16,7 @@ public class RandomBirthdate {
 
 	        GregorianCalendar gc = new GregorianCalendar();
 
-	        int year = randBetween(2001, 2010);
+	        int year = randBetween(1960, 1995);
 
 	        gc.set(Calendar.YEAR, year);
 
@@ -24,9 +24,10 @@ public class RandomBirthdate {
 
 	        gc.set(Calendar.DAY_OF_YEAR, dayOfYear);
 
-	        String date = (gc.get(Calendar.MONTH) + 1)+"/"+gc.get(Calendar.DAY_OF_MONTH)+"/"+gc.get(Calendar.YEAR);
+	        //String date = (gc.get(Calendar.MONTH) + 1)+"/"+gc.get(Calendar.DAY_OF_MONTH)+"/"+gc.get(Calendar.YEAR);
 	        //System.out.println((gc.get(gc.MONTH) + 1)+"/"+gc.get(gc.DAY_OF_MONTH)+"/"+gc.get(gc.YEAR));
-	        return date;
+	        String date1 = "05/07"+gc.get(Calendar.YEAR);
+	        return date1;
 
 	    }
 public static void main(String args[]){

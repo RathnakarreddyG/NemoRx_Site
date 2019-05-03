@@ -30,13 +30,13 @@ public class TestScript_04 extends General{
 		
 		Global.LoginInto(Usernamee, password1);
 		General.SearchPatient("rathnaa");//patient name
-		General.AddMedication("ta");//Drug
+		General.AddMedication("ra");//Drug
 		
 	}
 	@DataProvider
 	public Object[][] getdata(){
 		Object[][] credentials = {
-				{"ratnakarg@pronixinc.com","W&lcome@2019"}};
+				{"ratnakarg@pronixinc.com","Rathna@299299"}};
 		
 		System.out.println("");
 		return credentials;
