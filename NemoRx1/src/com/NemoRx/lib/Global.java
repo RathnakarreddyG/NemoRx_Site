@@ -17,7 +17,7 @@ public class Global {
 	   public static By LoginPath = By.id("okta-signin-submit");
 	   public static By SearchPath = By.xpath("//input[@class='jss68 jss53 jss73 jss74']");
 	public static void OpenBrowser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "ChromeDriverPath/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "ChromeDriverPath1/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://app-dev.nemorx.com/");Thread.sleep(5000);

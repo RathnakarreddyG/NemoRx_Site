@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.NemoRx.TestScripts.TestScript_04">
+      <class name="com.NemoRx.TestScripts.TestScripts_07">
         <methods>
-          <include name="SearchPatientAddMedication" invocation-numbers="0"/>
-          <include name="Open"/>
-          <include name="Close"/>
+          <include name="Alert"/>
         </methods>
-      </class> <!-- com.NemoRx.TestScripts.TestScript_04 -->
+      </class> <!-- com.NemoRx.TestScripts.TestScripts_07 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

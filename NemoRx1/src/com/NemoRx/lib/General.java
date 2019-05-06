@@ -143,6 +143,17 @@ public class General extends Global{
 			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'No')]")).click();
 			Thread.sleep(3000);
 		}
+		public static void AlertBell() throws Exception{
+			Thread.sleep(5000);
+			wait = new WebDriverWait(driver,10);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/header/div/div[3]/a")));
+			driver.findElement(By.xpath("//*[@id='root']/div/header/div/div[3]/a")).click();
+			System.out.println("Clicked on Alertbell");Reporter.log("Clicked on Alertbell");
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/header/div/div[2]/div/div/button[2]/span[1]/span/span")));
+			driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/header/div/div[2]/div/div/button[2]/span[1]/span/span")).click();
+			System.out.println("Alertbell window Opened");Reporter.log("Alertbell window Opened");Reporter.log("Clicked on History button");
+			
+		}
 		
 	
 }
