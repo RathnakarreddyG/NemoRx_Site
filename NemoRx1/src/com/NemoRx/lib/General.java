@@ -18,15 +18,13 @@ public class General extends Global{
 	
   	public static void SearchPatient(String patient) throws Exception{
   		 wait = new WebDriverWait(driver,10);
-		String title2 = driver.getTitle();
-		System.out.println("Page 2 Title=="+title2);Reporter.log("Page 2 Title=="+title2);
 		wait.until(ExpectedConditions.elementToBeClickable((SearchPath)));
 		driver.findElement(SearchPath).sendKeys(patient);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/header/div/div[1]/div[2]/div/ul/div")));
 		System.out.println("Name of patient=="+patient);Reporter.log("Name of patient=="+patient);
 		driver.findElement(By.xpath("//*[@id=\"root\"]/div/header/div/div[1]/div[2]/div/ul/div")).click();
-		String title3 = driver.getTitle();
-		System.out.println("Page 3 Title=="+title3);Reporter.log("Page 3 Title=="+title3);
+		
+		
 	}
 	public static void sideMenu() throws Exception{
 		 wait = new WebDriverWait(driver,10);
@@ -144,14 +142,23 @@ public class General extends Global{
 			Thread.sleep(3000);
 		}
 		public static void AlertBell() throws Exception{
-			Thread.sleep(5000);
-			wait = new WebDriverWait(driver,10);
+			
+			wait = new WebDriverWait(driver,50);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/header/div/div[3]/a")));
 			driver.findElement(By.xpath("//*[@id='root']/div/header/div/div[3]/a")).click();
 			System.out.println("Clicked on Alertbell");Reporter.log("Clicked on Alertbell");
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/header/div/div[2]/div/div/button[2]/span[1]/span/span")));
 			driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/header/div/div[2]/div/div/button[2]/span[1]/span/span")).click();
 			System.out.println("Alertbell window Opened");Reporter.log("Alertbell window Opened");Reporter.log("Clicked on History button");
+			driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div")).click();
+			System.out.println("--Verifying options are available in 'History For'---");Reporter.log("--Verifying options are available in 'History For'---");
+			String option1 = driver.findElement(By.xpath("//*[@id='menu-historyFilter']/div[2]/ul/li[1]")).getText();
+			System.out.println("**"+option1+"**");Reporter.log("**"+option1+"**");
+			String option2 = driver.findElement(By.xpath("//*[@id='menu-historyFilter']/div[2]/ul/li[2]")).getText();
+			System.out.println("**"+option2+"**");Reporter.log("**"+option2+"**");
+			String option3 = driver.findElement(By.xpath("//*[@id='menu-historyFilter']/div[2]/ul/li[3]")).getText();
+			System.out.println("**"+option3+"**");Reporter.log("**"+option3+"**");
+			driver.findElement(By.xpath("//*[@id='menu-historyFilter']/div[2]/ul/li[1]")).click();
 			
 		}
 		

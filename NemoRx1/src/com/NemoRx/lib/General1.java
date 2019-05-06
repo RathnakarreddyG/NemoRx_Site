@@ -18,42 +18,42 @@ public class General1 extends General{
 		wait = new WebDriverWait(driver,15);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(.,'Rx Print Settings')]")));
 		driver.findElement(By.xpath("//span[contains(.,'Rx Print Settings')]")).click();
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		Robot r = new Robot();
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//1
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Capitalize Prescription");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//2
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Print Patient's Address");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//3
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Two Signature Lines");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//4
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Initials Signature Line");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//5
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Print Title");
-		Thread.sleep(2000);			
+		Thread.sleep(500);			
 		
 			r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//6
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Print DPS");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//7
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Print NPI");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//8
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Print State License Number");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//9
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Print Comments");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//10
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//11
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//12
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//13
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_ENTER);r.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(4000);
 		
@@ -63,38 +63,38 @@ public class General1 extends General{
 		Thread.sleep(3000);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//1
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Unchecked Capitalize Prescription");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//2
 		
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//3
 		
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//4
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Unchecked Initials Signature Line");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//5
 		
-		Thread.sleep(2000);			
+		Thread.sleep(500);			
 		
 			r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//6
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Unchecked Print DPS");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//7
 		
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//8
 		
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//9
 		r.keyPress(KeyEvent.VK_SPACE);r.keyRelease(KeyEvent.VK_SPACE);Reporter.log("Unchecked Print Comments");
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//10
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//11
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//12
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);//13
-		Thread.sleep(2000);
+		Thread.sleep(500);
 		r.keyPress(KeyEvent.VK_ENTER);r.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(4000);
 		
@@ -128,7 +128,12 @@ public class General1 extends General{
 		Thread.sleep(3000);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div[2]/div/div[3]/button[2]/span[1]")));
 		driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[3]/button[2]/span[1]")).click();
-		Reporter.log("Patient Added Successfully-Name Of the Patient"+Fistname+ " "+Fistname );
+		System.out.println("**Patient Added Successfully-Name Of the Patient--"+Fistname+ " "+Fistname );
+		Reporter.log("**Patient Added Successfully-Name Of the Patient--"+Fistname+ " "+Fistname );
+		Thread.sleep(3000);
+		driver.navigate().back();
+		Thread.sleep(3000);
+		General.SearchPatient(Fistname);
 	}
 
 }

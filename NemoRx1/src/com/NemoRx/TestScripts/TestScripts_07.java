@@ -12,7 +12,10 @@ public class TestScripts_07 extends General {
 		 Global.OpenBrowser();
 		 Global.LoginInto("ratnakarg@pronixinc.com", "Rathna@299299");
 		 General.AlertBell();
-		
+		 Thread.sleep(3000);
+		 General.sideMenu();
+		 Global.Logout();
+		driver.close();
 	}
 
 }

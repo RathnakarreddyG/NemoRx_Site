@@ -33,7 +33,7 @@ public class TestScript_05 extends Global{
 	}
 	@DataProvider
 	public Object[][] getdata(){
-		Object[][] credentials = {{"ratnakarg@pronixinc.com","W&lcome@2019"},{"phani@pronixinc.com","W&lcome@2019"}};
+		Object[][] credentials = {{"ratnakarg@pronixinc.com","Rathna@299299"},{"phani@pronixinc.com","W&lcome@2019"}};
 		return credentials;
 	}
 }

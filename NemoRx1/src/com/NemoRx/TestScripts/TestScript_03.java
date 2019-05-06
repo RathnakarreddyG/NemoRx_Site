@@ -46,7 +46,7 @@ public class TestScript_03 extends General{
 	@DataProvider
 	public Object[][] getdata(){
 		Object[][] credentials = {
-				{"ratnakarg@pronixinc.com","W&lcome@2019"},
+				{"ratnakarg@pronixinc.com","Rathna@299299"},
 				{"phani@pronixinc.com","W&lcome@2019"},
 				{"webtest39@nemohealth.com","Like2Bike!"}};
 		return credentials;
