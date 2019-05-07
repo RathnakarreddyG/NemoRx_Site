@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Successfully login completed]]>
@@ -8,45 +8,43 @@
       <![CDATA[Page Title-NEMORx]]>
     </line>
     <line>
-      <![CDATA[Name of patient==rathnaa]]>
+      <![CDATA[Name of patient==YBLKXSZI]]>
     </line>
     <line>
-      <![CDATA[Edit allergy Button = true]]>
+      <![CDATA[Add medication Button = true]]>
     </line>
     <line>
-      <![CDATA[Delete allergy Button = true]]>
+      <![CDATA[Drug Selected]]>
     </line>
     <line>
-      <![CDATA[Logout Successfully completed]]>
+      <![CDATA[Successfully added medication. Would you like to add another medication?]]>
     </line>
     <line>
-      <![CDATA[Successfully login completed]]>
-    </line>
-    <line>
-      <![CDATA[Page Title-NEMORx]]>
-    </line>
-    <line>
-      <![CDATA[Name of patient==rathnaa]]>
-    </line>
-    <line>
-      <![CDATA[Send Medication Button = true]]>
-    </line>
-    <line>
-      <![CDATA[Medication Edit button = true]]>
-    </line>
-    <line>
-      <![CDATA[Delete Medication Button = true]]>
-    </line>
-    <line>
-      <![CDATA[Logout Successfully completed]]>
+      <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77454" started-at="2019-05-07T15:51:19Z" finished-at="2019-05-07T15:52:36Z">
+  <suite name="Default suite" duration-ms="56611" started-at="2019-05-07T16:10:18Z" finished-at="2019-05-07T16:11:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77454" started-at="2019-05-07T15:51:19Z" finished-at="2019-05-07T15:52:36Z">
-      <class name="com.NemoRx.TestScripts.TestScript_08">
-        <test-method status="PASS" signature="AllergiesButtonsVerificationOnPatientChart()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@1761e840]" name="AllergiesButtonsVerificationOnPatientChart" duration-ms="39939" started-at="2019-05-07T21:21:19Z" finished-at="2019-05-07T21:21:59Z">
+    <test name="Default test" duration-ms="56611" started-at="2019-05-07T16:10:18Z" finished-at="2019-05-07T16:11:14Z">
+      <class name="com.NemoRx.TestScripts.TestScript_04">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Open" is-config="true" duration-ms="20715" started-at="2019-05-07T21:40:18Z" finished-at="2019-05-07T21:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="SearchPatientAddMedication(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="SearchPatientAddMedication" duration-ms="35241" started-at="2019-05-07T21:40:39Z" data-provider="getdata" finished-at="2019-05-07T21:41:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratnakarg@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathna@299299]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Successfully login completed]]>
@@ -55,45 +53,27 @@
               <![CDATA[Page Title-NEMORx]]>
             </line>
             <line>
-              <![CDATA[Name of patient==rathnaa]]>
+              <![CDATA[Name of patient==YBLKXSZI]]>
             </line>
             <line>
-              <![CDATA[Edit allergy Button = true]]>
+              <![CDATA[Add medication Button = true]]>
             </line>
             <line>
-              <![CDATA[Delete allergy Button = true]]>
+              <![CDATA[Drug Selected]]>
             </line>
             <line>
-              <![CDATA[Logout Successfully completed]]>
+              <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
             </line>
           </reporter-output>
-        </test-method> <!-- AllergiesButtonsVerificationOnPatientChart -->
-        <test-method status="PASS" signature="MedicationsButtonsVerificationOnPatientChart()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@1761e840]" name="MedicationsButtonsVerificationOnPatientChart" duration-ms="37498" started-at="2019-05-07T21:21:59Z" finished-at="2019-05-07T21:22:36Z">
+        </test-method> <!-- SearchPatientAddMedication -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Close" is-config="true" duration-ms="639" started-at="2019-05-07T21:41:14Z" finished-at="2019-05-07T21:41:14Z">
           <reporter-output>
-            <line>
-              <![CDATA[Successfully login completed]]>
-            </line>
-            <line>
-              <![CDATA[Page Title-NEMORx]]>
-            </line>
-            <line>
-              <![CDATA[Name of patient==rathnaa]]>
-            </line>
-            <line>
-              <![CDATA[Send Medication Button = true]]>
-            </line>
-            <line>
-              <![CDATA[Medication Edit button = true]]>
-            </line>
-            <line>
-              <![CDATA[Delete Medication Button = true]]>
-            </line>
-            <line>
-              <![CDATA[Logout Successfully completed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- MedicationsButtonsVerificationOnPatientChart -->
-      </class> <!-- com.NemoRx.TestScripts.TestScript_08 -->
+        </test-method> <!-- Close -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_04 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

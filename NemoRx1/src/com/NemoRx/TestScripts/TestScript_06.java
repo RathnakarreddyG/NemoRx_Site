@@ -16,7 +16,9 @@ public class TestScript_06 extends General1 {
 		General1.AddingPatient();
 		System.out.println("Search for added patient");Reporter.log("Search for added patient");
 		General.AddMedication("ka");
+		General.UnderSummaryMedicationsSendEditDelete();
 		General.AddAllerigies("ka");
+		General.UnderSummaryAllerigiesEditDelete();
 		Thread.sleep(3000);
 		General.sideMenu();
 		Global.Logout();
