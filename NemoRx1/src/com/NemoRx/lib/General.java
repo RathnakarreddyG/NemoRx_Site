@@ -115,6 +115,8 @@ public class General extends Global{
 		public static void AddMedication(String drug) throws Exception{
 			wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[1]/button[1]/span[1]")));
+			boolean butAddM = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[1]/button[1]/span[1]")).isEnabled();
+			System.out.println("Add medication Button = "+butAddM);Reporter.log("Add medication Button = "+butAddM);
 			driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[1]/button[1]/span[1]")).click();
 			driver.findElement(By.xpath("//input[@name='drugSearchStr']")).sendKeys(drug);
 			Robot r = new Robot();
@@ -145,6 +147,8 @@ public class General extends Global{
 		public static void AddAllerigies(String allergy) throws Exception{
 			wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[contains(.,'Add')])[2]")));
+			boolean butAdd = driver.findElement(By.xpath("(//span[contains(.,'Add')])[2]")).isEnabled();
+			System.out.println("Add allergy Button = "+butAdd);
 			driver.findElement(By.xpath("(//span[contains(.,'Add')])[2]")).click();
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='searchStr']")));
 			driver.findElement(By.xpath("//input[@name='searchStr']")).sendKeys(allergy);
@@ -207,6 +211,14 @@ public class General extends Global{
 			boolean bu3 = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[3]")).isEnabled();
 			System.out.println("Delete Medication Button = "+bu3);Reporter.log("Delete Medication Button = "+bu3);
 		}
-		
+		public static void UnderSummaryAllerigiesEditDelete(){
+			wait = new WebDriverWait(driver,50);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[6]/div/div/div/div/div/table/tbody/tr/td[5]/div/button[1]")));
+			boolean but1 = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[6]/div/div/div/div/div/table/tbody/tr/td[5]/div/button[1]")).isEnabled();
+			System.out.println("Edit allergy Button = "+but1);Reporter.log("Edit allergy Button = "+but1);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[6]/div/div/div/div/div/table/tbody/tr/td[5]/div/button[2]")));
+			boolean but2 = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[6]/div/div/div/div/div/table/tbody/tr/td[5]/div/button[2]")).isEnabled();
+			System.out.println("Delete allergy Button = "+but2);Reporter.log("Delete allergy Button = "+but2);
+		}
 	
 }
