@@ -14,6 +14,7 @@ public class TestScript_06 extends General1 {
 		Global.LoginInto("ratnakarg@pronixinc.com", "Rathna@299299");
 		General1.AddingPatient();
 		General.AddMedication("ka");
+		General.AddAllerigies("ka");
 		Thread.sleep(3000);
 		General.sideMenu();
 		Global.Logout();

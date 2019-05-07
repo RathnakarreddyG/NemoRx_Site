@@ -8,42 +8,15 @@
       <![CDATA[Page Title-NEMORx]]>
     </line>
     <line>
-      <![CDATA[Account Number-4123457]]>
-    </line>
-    <line>
-      <![CDATA[FirstName-OFCEJ]]>
-    </line>
-    <line>
-      <![CDATA[Date of Birth-05/071966]]>
-    </line>
-    <line>
-      <![CDATA[Patient Added Successfully-Name Of the PatientOFCEJ OFCEJ]]>
-    </line>
-    <line>
-      <![CDATA[Page 2 Title==NEMORx]]>
-    </line>
-    <line>
-      <![CDATA[Name of patient==OFCEJ]]>
-    </line>
-    <line>
-      <![CDATA[Page 3 Title==NEMORx]]>
-    </line>
-    <line>
-      <![CDATA[Drug Selected]]>
-    </line>
-    <line>
-      <![CDATA[Successfully added medication. Would you like to add another medication?]]>
-    </line>
-    <line>
-      <![CDATA[Logout Successfully completed]]>
+      <![CDATA[Name of patient==rathnaa]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72018" started-at="2019-05-06T15:59:57Z" finished-at="2019-05-06T16:01:09Z">
+  <suite name="Default suite" duration-ms="42736" started-at="2019-05-06T17:25:19Z" finished-at="2019-05-06T17:26:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72018" started-at="2019-05-06T15:59:57Z" finished-at="2019-05-06T16:01:09Z">
-      <class name="com.NemoRx.TestScripts.TestScript_06">
-        <test-method status="PASS" signature="AddPatientAndMedication()[pri:0, instance:com.NemoRx.TestScripts.TestScript_06@1761e840]" name="AddPatientAndMedication" duration-ms="72004" started-at="2019-05-06T21:29:57Z" finished-at="2019-05-06T21:31:09Z">
+    <test name="Default test" duration-ms="42736" started-at="2019-05-06T17:25:19Z" finished-at="2019-05-06T17:26:02Z">
+      <class name="com.NemoRx.TestScripts.TestScript_08">
+        <test-method status="PASS" signature="AddingAllergies()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@1761e840]" name="AddingAllergies" duration-ms="42722" started-at="2019-05-06T22:55:19Z" finished-at="2019-05-06T22:56:02Z">
           <reporter-output>
             <line>
               <![CDATA[Successfully login completed]]>
@@ -52,38 +25,11 @@
               <![CDATA[Page Title-NEMORx]]>
             </line>
             <line>
-              <![CDATA[Account Number-4123457]]>
-            </line>
-            <line>
-              <![CDATA[FirstName-OFCEJ]]>
-            </line>
-            <line>
-              <![CDATA[Date of Birth-05/071966]]>
-            </line>
-            <line>
-              <![CDATA[Patient Added Successfully-Name Of the PatientOFCEJ OFCEJ]]>
-            </line>
-            <line>
-              <![CDATA[Page 2 Title==NEMORx]]>
-            </line>
-            <line>
-              <![CDATA[Name of patient==OFCEJ]]>
-            </line>
-            <line>
-              <![CDATA[Page 3 Title==NEMORx]]>
-            </line>
-            <line>
-              <![CDATA[Drug Selected]]>
-            </line>
-            <line>
-              <![CDATA[Successfully added medication. Would you like to add another medication?]]>
-            </line>
-            <line>
-              <![CDATA[Logout Successfully completed]]>
+              <![CDATA[Name of patient==rathnaa]]>
             </line>
           </reporter-output>
-        </test-method> <!-- AddPatientAndMedication -->
-      </class> <!-- com.NemoRx.TestScripts.TestScript_06 -->
+        </test-method> <!-- AddingAllergies -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_08 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

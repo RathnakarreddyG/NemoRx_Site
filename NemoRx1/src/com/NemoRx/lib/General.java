@@ -1,6 +1,7 @@
 package com.NemoRx.lib;
 
 
+
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.text.DateFormat;
@@ -140,6 +141,29 @@ public class General extends Global{
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss165'][contains(.,'No')]")));
 			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'No')]")).click();
 			Thread.sleep(3000);
+		}
+		public static void AddAllerigies(String allergy) throws Exception{
+			wait = new WebDriverWait(driver,10);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//span[contains(.,'Add')])[2]")));
+			driver.findElement(By.xpath("(//span[contains(.,'Add')])[2]")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='searchStr']")));
+			driver.findElement(By.xpath("//input[@name='searchStr']")).sendKeys(allergy);
+			Robot r = new Robot();
+			
+			r.keyPress(KeyEvent.VK_ENTER);r.keyRelease(KeyEvent.VK_ENTER);
+			Thread.sleep(3000);
+			r.keyPress(KeyEvent.VK_TAB);r.keyRelease(KeyEvent.VK_TAB);
+		
+			r.keyPress(KeyEvent.VK_ENTER);r.keyRelease(KeyEvent.VK_ENTER);
+			Thread.sleep(3000);
+			String AddedAllergy = driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[3]/div/div[2]/div/div[1]/div/div/input")).getText();
+			System.out.println("**Added allergy-"+AddedAllergy);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@name='reaction']")));
+			driver.findElement(By.xpath("//input[@name='reaction']")).sendKeys("Head");
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[2]/span[1]")));
+			driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[2]/span[1]")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button[2]/span[1]")));
+			driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button[2]/span[1]")).click();
 		}
 		public static void AlertBell() throws Exception{
 			
