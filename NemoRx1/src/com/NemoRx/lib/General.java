@@ -162,6 +162,9 @@ public class General extends Global{
 			driver.findElement(By.xpath("//input[@name='reaction']")).sendKeys("Head");
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[2]/span[1]")));
 			driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[2]/span[1]")).click();
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")));
+			String message = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")).getText();
+			System.out.println(message);Reporter.log(message);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button[2]/span[1]")));
 			driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button[2]/span[1]")).click();
 		}

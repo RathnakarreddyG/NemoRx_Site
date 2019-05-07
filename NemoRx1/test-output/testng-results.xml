@@ -8,15 +8,40 @@
       <![CDATA[Page Title-NEMORx]]>
     </line>
     <line>
-      <![CDATA[Name of patient==rathnaa]]>
+      <![CDATA[Name of patient==YBLKXSZI]]>
+    </line>
+    <line>
+      <![CDATA[Drug Selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42736" started-at="2019-05-06T17:25:19Z" finished-at="2019-05-06T17:26:02Z">
+  <suite name="Default suite" duration-ms="55167" started-at="2019-05-07T09:28:25Z" finished-at="2019-05-07T09:29:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42736" started-at="2019-05-06T17:25:19Z" finished-at="2019-05-06T17:26:02Z">
-      <class name="com.NemoRx.TestScripts.TestScript_08">
-        <test-method status="PASS" signature="AddingAllergies()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@1761e840]" name="AddingAllergies" duration-ms="42722" started-at="2019-05-06T22:55:19Z" finished-at="2019-05-06T22:56:02Z">
+    <test name="Default test" duration-ms="55167" started-at="2019-05-07T09:28:25Z" finished-at="2019-05-07T09:29:20Z">
+      <class name="com.NemoRx.TestScripts.TestScript_04">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Open" is-config="true" duration-ms="19089" started-at="2019-05-07T14:58:25Z" finished-at="2019-05-07T14:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="SearchPatientAddMedication(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="SearchPatientAddMedication" duration-ms="34815" started-at="2019-05-07T14:58:44Z" data-provider="getdata" finished-at="2019-05-07T14:59:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratnakarg@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathna@299299]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[Successfully login completed]]>
@@ -25,11 +50,24 @@
               <![CDATA[Page Title-NEMORx]]>
             </line>
             <line>
-              <![CDATA[Name of patient==rathnaa]]>
+              <![CDATA[Name of patient==YBLKXSZI]]>
+            </line>
+            <line>
+              <![CDATA[Drug Selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
             </line>
           </reporter-output>
-        </test-method> <!-- AddingAllergies -->
-      </class> <!-- com.NemoRx.TestScripts.TestScript_08 -->
+        </test-method> <!-- SearchPatientAddMedication -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Close" is-config="true" duration-ms="1252" started-at="2019-05-07T14:59:19Z" finished-at="2019-05-07T14:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_04 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
