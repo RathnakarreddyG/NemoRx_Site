@@ -212,7 +212,7 @@ public class General extends Global{
 			System.out.println("Delete Medication Button = "+bu3);Reporter.log("Delete Medication Button = "+bu3);
 		}
 		public static void UnderSummaryAllerigiesEditDelete(){
-			wait = new WebDriverWait(driver,50);
+			wait = new WebDriverWait(driver,500);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[6]/div/div/div/div/div/table/tbody/tr/td[5]/div/button[1]")));
 			boolean but1 = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[6]/div/div/div/div/div/table/tbody/tr/td[5]/div/button[1]")).isEnabled();
 			System.out.println("Edit allergy Button = "+but1);Reporter.log("Edit allergy Button = "+but1);
