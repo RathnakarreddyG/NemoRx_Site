@@ -8,7 +8,22 @@
       <![CDATA[Page Title-NEMORx]]>
     </line>
     <line>
-      <![CDATA[Name of patient==YBLKXSZI]]>
+      <![CDATA[Account Number-81234511]]>
+    </line>
+    <line>
+      <![CDATA[FirstName-UICRIQC]]>
+    </line>
+    <line>
+      <![CDATA[Date of Birth-05/071964]]>
+    </line>
+    <line>
+      <![CDATA[**Patient Added Successfully-Name Of the Patient--UICRIQC UICRIQC]]>
+    </line>
+    <line>
+      <![CDATA[Name of patient==UICRIQC]]>
+    </line>
+    <line>
+      <![CDATA[Search for added patient]]>
     </line>
     <line>
       <![CDATA[Drug Selected]]>
@@ -19,29 +34,16 @@
     <line>
       <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
     </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55167" started-at="2019-05-07T09:28:25Z" finished-at="2019-05-07T09:29:20Z">
+  <suite name="Default suite" duration-ms="73700" started-at="2019-05-07T12:08:34Z" finished-at="2019-05-07T12:09:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55167" started-at="2019-05-07T09:28:25Z" finished-at="2019-05-07T09:29:20Z">
-      <class name="com.NemoRx.TestScripts.TestScript_04">
-        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Open" is-config="true" duration-ms="19089" started-at="2019-05-07T14:58:25Z" finished-at="2019-05-07T14:58:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Open -->
-        <test-method status="PASS" signature="SearchPatientAddMedication(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="SearchPatientAddMedication" duration-ms="34815" started-at="2019-05-07T14:58:44Z" data-provider="getdata" finished-at="2019-05-07T14:59:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ratnakarg@pronixinc.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rathna@299299]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="73700" started-at="2019-05-07T12:08:34Z" finished-at="2019-05-07T12:09:48Z">
+      <class name="com.NemoRx.TestScripts.TestScript_06">
+        <test-method status="PASS" signature="AddPatientAndMedication()[pri:0, instance:com.NemoRx.TestScripts.TestScript_06@1761e840]" name="AddPatientAndMedication" duration-ms="73677" started-at="2019-05-07T17:38:34Z" finished-at="2019-05-07T17:39:48Z">
           <reporter-output>
             <line>
               <![CDATA[Successfully login completed]]>
@@ -50,7 +52,22 @@
               <![CDATA[Page Title-NEMORx]]>
             </line>
             <line>
-              <![CDATA[Name of patient==YBLKXSZI]]>
+              <![CDATA[Account Number-81234511]]>
+            </line>
+            <line>
+              <![CDATA[FirstName-UICRIQC]]>
+            </line>
+            <line>
+              <![CDATA[Date of Birth-05/071964]]>
+            </line>
+            <line>
+              <![CDATA[**Patient Added Successfully-Name Of the Patient--UICRIQC UICRIQC]]>
+            </line>
+            <line>
+              <![CDATA[Name of patient==UICRIQC]]>
+            </line>
+            <line>
+              <![CDATA[Search for added patient]]>
             </line>
             <line>
               <![CDATA[Drug Selected]]>
@@ -61,13 +78,12 @@
             <line>
               <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
             </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- SearchPatientAddMedication -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Close" is-config="true" duration-ms="1252" started-at="2019-05-07T14:59:19Z" finished-at="2019-05-07T14:59:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close -->
-      </class> <!-- com.NemoRx.TestScripts.TestScript_04 -->
+        </test-method> <!-- AddPatientAndMedication -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_06 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
