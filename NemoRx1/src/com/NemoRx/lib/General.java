@@ -10,7 +10,7 @@ import java.util.Date;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
@@ -187,6 +187,25 @@ public class General extends Global{
 			System.out.println("**"+option3+"**");Reporter.log("**"+option3+"**");
 			driver.findElement(By.xpath("//*[@id='menu-historyFilter']/div[2]/ul/li[1]")).click();
 			
+		}
+		public static void Prescribe(){
+			wait = new WebDriverWait(driver,50);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss578'][contains(.,'Prescribe')]")));
+			driver.findElement(By.xpath("//span[@class='jss578'][contains(.,'Prescribe')]")).click();
+			
+		}
+		public static void UnderSummaryMedicationsSendEditDelete(){
+			wait = new WebDriverWait(driver,50);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[1]")));
+			boolean bu1 = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[1]")).isEnabled();
+			System.out.println("Send Medication Button = "+bu1);Reporter.log("Send Medication Button = "+bu1);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[2]")));
+			WebElement editButton = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[2]"));
+			boolean bu2 = editButton.isEnabled();
+			System.out.println("Medication Edit button = "+bu2);Reporter.log("Medication Edit button = "+bu2);
+			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[1]")));
+			boolean bu3 = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[2]/table/tbody/tr/td[6]/button[3]")).isEnabled();
+			System.out.println("Delete Medication Button = "+bu3);Reporter.log("Delete Medication Button = "+bu3);
 		}
 		
 	
