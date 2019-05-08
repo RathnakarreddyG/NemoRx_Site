@@ -113,7 +113,7 @@ public class General extends Global{
 			
 		}
 		public static void AddMedication(String drug) throws Exception{
-			wait = new WebDriverWait(driver,10);
+			wait = new WebDriverWait(driver,50);
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[1]/button[1]/span[1]")));
 			boolean butAddM = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div/ul/div[4]/div/div/div/div[1]/button[1]/span[1]")).isEnabled();
 			System.out.println("Add medication Button = "+butAddM);Reporter.log("Add medication Button = "+butAddM);
@@ -140,9 +140,19 @@ public class General extends Global{
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")));
 			String ConfirmMessage = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")).getText();
 			System.out.println(ConfirmMessage);Reporter.log(ConfirmMessage);
-			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss165'][contains(.,'No')]")));
-			driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'No')]")).click();
-			Thread.sleep(3000);
+			if(ConfirmMessage.equals("Successfully added medication. Would you like to add another medication?")){
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='jss165'][contains(.,'No')]")));
+				driver.findElement(By.xpath("//span[@class='jss165'][contains(.,'No')]")).click();
+				Thread.sleep(3000);
+			}else if(ConfirmMessage.equals("The drug has already been added for this patient")){
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button/span[1]")));
+				driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button/span[1]")).click();
+				Thread.sleep(3000);
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[1]")));
+				driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[1]")).click();
+				Thread.sleep(3000);
+			}
+			
 		}
 		public static void AddAllerigies(String allergy) throws Exception{
 			wait = new WebDriverWait(driver,10);
@@ -169,8 +179,18 @@ public class General extends Global{
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")));
 			String message = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[2]/p")).getText();
 			System.out.println(message);Reporter.log(message);
+			if(message.equals("Successfully created allergy. Would you like to add another allergy?")){
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button[2]/span[1]")));
 			driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button[2]/span[1]")).click();
+			}
+			else if(message.equals("The allergy already exists for the patient")){
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button")));
+				driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[3]/button")).click();
+				Thread.sleep(2500);
+				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[1]")));
+				driver.findElement(By.xpath("/html/body/div[2]/div[2]/div/div[4]/button[1]")).click();
+				Thread.sleep(3000);
+			}
 		}
 		public static void AlertBell() throws Exception{
 			

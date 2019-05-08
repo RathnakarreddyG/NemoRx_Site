@@ -1,5 +1,8 @@
 package com.NemoRx.TestScripts;
 
+import java.util.Properties;
+
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -13,6 +16,9 @@ public class TestScript_05 extends Global{
 	
 	@BeforeClass
 	public static void Open() throws Exception {
+		Descriptions object = new Descriptions();
+		Properties properties = object.getProperty();
+		System.out.println(properties.getProperty("TestScript_05"));Reporter.log(properties.getProperty("TestScript_05"));
 		Global.OpenBrowser();
 	}
     @AfterClass

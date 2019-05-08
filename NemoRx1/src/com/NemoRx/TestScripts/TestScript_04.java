@@ -3,6 +3,10 @@ package com.NemoRx.TestScripts;
 
 
 import org.testng.annotations.Test;
+
+import java.util.Properties;
+
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 
 import org.testng.annotations.BeforeClass;
@@ -17,6 +21,9 @@ public class TestScript_04 extends General{
 
 	@BeforeClass
 	public static void Open() throws Exception {
+		Descriptions object = new Descriptions();
+		Properties properties = object.getProperty();
+		System.out.println(properties.getProperty("TestScript_04"));Reporter.log(properties.getProperty("TestScript_04"));
 		Global.OpenBrowser();
 	}
 	@AfterClass
@@ -30,8 +37,8 @@ public class TestScript_04 extends General{
 		
 		Global.LoginInto(Usernamee, password1);
 		General.SearchPatient("YBLKXSZI");//patient name
-		General.AddMedication("ga");//Drug
-		General.AddAllerigies("pa");
+		General.AddMedication("va");//Drug
+		General.AddAllerigies("ka");
 		
 	}
 	@DataProvider
