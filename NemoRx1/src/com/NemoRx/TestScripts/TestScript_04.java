@@ -21,7 +21,7 @@ public class TestScript_04 extends General{
 	}
 	@AfterClass
 	public static void Close(){
-		driver.quit();
+		//driver.quit();
 	}
 
 	@Test(priority = 4,dataProvider = "getdata")
@@ -30,8 +30,8 @@ public class TestScript_04 extends General{
 		
 		Global.LoginInto(Usernamee, password1);
 		General.SearchPatient("YBLKXSZI");//patient name
-		General.AddMedication("ga");//Drug
-		General.AddAllerigies("pa");
+		General.AddMedication("va");//Drug
+		General.AddAllerigies("ka");
 		
 	}
 	@DataProvider

@@ -1,6 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="6" total="15" passed="9">
   <reporter-output>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Alertbell]]>
+    </line>
+    <line>
+      <![CDATA[Alertbell window Opened]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on History button]]>
+    </line>
+    <line>
+      <![CDATA[--Verifying options are available in 'History For'---]]>
+    </line>
+    <line>
+      <![CDATA[**Refill Requests**]]>
+    </line>
+    <line>
+      <![CDATA[**Rx Change Requests**]]>
+    </line>
+    <line>
+      <![CDATA[**Prescriptions**]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Account Number-151234513]]>
+    </line>
+    <line>
+      <![CDATA[FirstName-REHCWDNP]]>
+    </line>
+    <line>
+      <![CDATA[Date of Birth-05/071971]]>
+    </line>
+    <line>
+      <![CDATA[**Patient Added Successfully-Name Of the Patient--REHCWDNP REHCWDNP]]>
+    </line>
+    <line>
+      <![CDATA[Name of patient==REHCWDNP]]>
+    </line>
+    <line>
+      <![CDATA[Search for added patient]]>
+    </line>
+    <line>
+      <![CDATA[Add medication Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Drug Selected]]>
+    </line>
+    <line>
+      <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+    </line>
+    <line>
+      <![CDATA[Send Medication Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Medication Edit button = true]]>
+    </line>
+    <line>
+      <![CDATA[Delete Medication Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
+    </line>
+    <line>
+      <![CDATA[Edit allergy Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Delete allergy Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Capitalize Prescription]]>
+    </line>
+    <line>
+      <![CDATA[Print Patient's Address]]>
+    </line>
+    <line>
+      <![CDATA[Two Signature Lines]]>
+    </line>
+    <line>
+      <![CDATA[Initials Signature Line]]>
+    </line>
+    <line>
+      <![CDATA[Print Title]]>
+    </line>
+    <line>
+      <![CDATA[Print DPS]]>
+    </line>
+    <line>
+      <![CDATA[Print NPI]]>
+    </line>
+    <line>
+      <![CDATA[Print State License Number]]>
+    </line>
+    <line>
+      <![CDATA[Print Comments]]>
+    </line>
+    <line>
+      <![CDATA[Unchecked Capitalize Prescription]]>
+    </line>
+    <line>
+      <![CDATA[Unchecked Initials Signature Line]]>
+    </line>
+    <line>
+      <![CDATA[Unchecked Print DPS]]>
+    </line>
+    <line>
+      <![CDATA[Unchecked Print Comments]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMO Health - My Applications]]>
+    </line>
     <line>
       <![CDATA[Successfully login completed]]>
     </line>
@@ -17,22 +155,969 @@
       <![CDATA[Drug Selected]]>
     </line>
     <line>
-      <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+      <![CDATA[The drug has already been added for this patient]]>
     </line>
     <line>
-      <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
+      <![CDATA[The allergy already exists for the patient]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Audit items link from side menu succesfully opened]]>
+    </line>
+    <line>
+      <![CDATA[Grant request link from side succesfully opened]]>
+    </line>
+    <line>
+      <![CDATA[Profile Link From Side Menu Successfully opened]]>
+    </line>
+    <line>
+      <![CDATA[View/Export Signed Prescriptions link from side menu opened Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Working hours link from side menu succesfully opened]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMO Health - My Applications]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Working hours link from side menu succesfully opened]]>
+    </line>
+    <line>
+      <![CDATA[Alert message - Are you sure you want to remove this item?]]>
+    </line>
+    <line>
+      <![CDATA[Work hour is deleted]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMO Health - My Applications]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Name of patient==rathnaa]]>
+    </line>
+    <line>
+      <![CDATA[Send Medication Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Medication Edit button = true]]>
+    </line>
+    <line>
+      <![CDATA[Delete Medication Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Name of patient==rathnaa]]>
+    </line>
+    <line>
+      <![CDATA[Edit allergy Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Delete allergy Button = true]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMORx]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully completed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully login completed]]>
+    </line>
+    <line>
+      <![CDATA[Page Title-NEMO Health - My Applications]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56611" started-at="2019-05-07T16:10:18Z" finished-at="2019-05-07T16:11:14Z">
+  <suite name="Default suite" duration-ms="548664" started-at="2019-05-08T05:34:53Z" finished-at="2019-05-08T05:44:02Z">
     <groups>
+      <group name="Verification">
+        <method signature="TestScript_08.AllergiesButtonsVerificationOnPatientChart()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@12bc6874]" name="AllergiesButtonsVerificationOnPatientChart" class="com.NemoRx.TestScripts.TestScript_08"/>
+        <method signature="TestScript_08.MedicationsButtonsVerificationOnPatientChart()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@12bc6874]" name="MedicationsButtonsVerificationOnPatientChart" class="com.NemoRx.TestScripts.TestScript_08"/>
+      </group> <!-- Verification -->
     </groups>
-    <test name="Default test" duration-ms="56611" started-at="2019-05-07T16:10:18Z" finished-at="2019-05-07T16:11:14Z">
-      <class name="com.NemoRx.TestScripts.TestScript_04">
-        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Open" is-config="true" duration-ms="20715" started-at="2019-05-07T21:40:18Z" finished-at="2019-05-07T21:40:39Z">
+    <test name="Default test" duration-ms="548664" started-at="2019-05-08T05:34:53Z" finished-at="2019-05-08T05:44:02Z">
+      <class name="com.NemoRx.TestScripts.TestScript_03">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@769c9116]" name="Open" is-config="true" duration-ms="19042" started-at="2019-05-08T11:09:08Z" finished-at="2019-05-08T11:09:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open -->
-        <test-method status="PASS" signature="SearchPatientAddMedication(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="SearchPatientAddMedication" duration-ms="35241" started-at="2019-05-07T21:40:39Z" data-provider="getdata" finished-at="2019-05-07T21:41:14Z">
+        <test-method status="PASS" signature="VerifyingLinksFromSideMenu(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@769c9116]" name="VerifyingLinksFromSideMenu" duration-ms="44028" started-at="2019-05-08T11:09:27Z" data-provider="getdata" finished-at="2019-05-08T11:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratnakarg@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathna@299299]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Audit items link from side menu succesfully opened]]>
+            </line>
+            <line>
+              <![CDATA[Grant request link from side succesfully opened]]>
+            </line>
+            <line>
+              <![CDATA[Profile Link From Side Menu Successfully opened]]>
+            </line>
+            <line>
+              <![CDATA[View/Export Signed Prescriptions link from side menu opened Succesfully]]>
+            </line>
+            <line>
+              <![CDATA[Working hours link from side menu succesfully opened]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyingLinksFromSideMenu -->
+        <test-method status="FAIL" signature="VerifyingLinksFromSideMenu(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@769c9116]" name="VerifyingLinksFromSideMenu" duration-ms="20829" started-at="2019-05-08T11:10:11Z" data-provider="getdata" finished-at="2019-05-08T11:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W&lcome@2019]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NemoRx.lib.General.sideMenu(General.java:32)
+	at com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu(TestScript_03.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='root']/div/header/div/div[3]/button[2]"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4f3aa3f2c5a42df1127db57f91042afd
+*** Element info: {Using=xpath, value=//*[@id='root']/div/header/div/div[3]/button[2]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMO Health - My Applications]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyingLinksFromSideMenu -->
+        <test-method status="FAIL" signature="VerifyingLinksFromSideMenu(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@769c9116]" name="VerifyingLinksFromSideMenu" duration-ms="13" started-at="2019-05-08T11:10:32Z" data-provider="getdata" finished-at="2019-05-08T11:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webtest39@nemohealth.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Like2Bike!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"okta-signin-username"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4f3aa3f2c5a42df1127db57f91042afd
+*** Element info: {Using=id, value=okta-signin-username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"okta-signin-username"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4f3aa3f2c5a42df1127db57f91042afd
+*** Element info: {Using=id, value=okta-signin-username}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.NemoRx.lib.Global.LoginInto(Global.java:26)
+	at com.NemoRx.TestScripts.TestScript_03.VerifyingLinksFromSideMenu(TestScript_03.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingLinksFromSideMenu -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_03@769c9116]" name="Close" is-config="true" duration-ms="647" started-at="2019-05-08T11:10:32Z" finished-at="2019-05-08T11:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_03 -->
+      <class name="com.NemoRx.TestScripts.TestScripts_07">
+        <test-method status="PASS" signature="AlertWindowVerification()[pri:0, instance:com.NemoRx.TestScripts.TestScripts_07@60215eee]" name="AlertWindowVerification" duration-ms="35553" started-at="2019-05-08T11:04:53Z" finished-at="2019-05-08T11:05:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Alertbell]]>
+            </line>
+            <line>
+              <![CDATA[Alertbell window Opened]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on History button]]>
+            </line>
+            <line>
+              <![CDATA[--Verifying options are available in 'History For'---]]>
+            </line>
+            <line>
+              <![CDATA[**Refill Requests**]]>
+            </line>
+            <line>
+              <![CDATA[**Rx Change Requests**]]>
+            </line>
+            <line>
+              <![CDATA[**Prescriptions**]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AlertWindowVerification -->
+      </class> <!-- com.NemoRx.TestScripts.TestScripts_07 -->
+      <class name="com.NemoRx.TestScripts.TestScript_02">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@18e8568]" name="Open" is-config="true" duration-ms="17350" started-at="2019-05-08T11:10:32Z" finished-at="2019-05-08T11:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="AddingWorkHour_deletingWorkHour(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@18e8568]" name="AddingWorkHour_deletingWorkHour" duration-ms="32174" started-at="2019-05-08T11:10:50Z" data-provider="getdata" finished-at="2019-05-08T11:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratnakarg@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathna@299299]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Working hours link from side menu succesfully opened]]>
+            </line>
+            <line>
+              <![CDATA[Alert message - Are you sure you want to remove this item?]]>
+            </line>
+            <line>
+              <![CDATA[Work hour is deleted]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddingWorkHour_deletingWorkHour -->
+        <test-method status="FAIL" signature="AddingWorkHour_deletingWorkHour(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@18e8568]" name="AddingWorkHour_deletingWorkHour" duration-ms="21491" started-at="2019-05-08T11:11:22Z" data-provider="getdata" finished-at="2019-05-08T11:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W&lcome@2019]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NemoRx.lib.General.sideMenu(General.java:32)
+	at com.NemoRx.TestScripts.TestScript_02.AddingWorkHour_deletingWorkHour(TestScript_02.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='root']/div/header/div/div[3]/button[2]"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55272}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: fb4dbeb7d4040c36d1befb772a8e576b
+*** Element info: {Using=xpath, value=//*[@id='root']/div/header/div/div[3]/button[2]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMO Health - My Applications]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddingWorkHour_deletingWorkHour -->
+        <test-method status="FAIL" signature="AddingWorkHour_deletingWorkHour(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@18e8568]" name="AddingWorkHour_deletingWorkHour" duration-ms="12" started-at="2019-05-08T11:11:43Z" data-provider="getdata" finished-at="2019-05-08T11:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webtest39@nemohealth.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Like2Bike!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"okta-signin-username"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55272}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: fb4dbeb7d4040c36d1befb772a8e576b
+*** Element info: {Using=id, value=okta-signin-username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"okta-signin-username"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55272}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: fb4dbeb7d4040c36d1befb772a8e576b
+*** Element info: {Using=id, value=okta-signin-username}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.NemoRx.lib.Global.LoginInto(Global.java:26)
+	at com.NemoRx.TestScripts.TestScript_02.AddingWorkHour_deletingWorkHour(TestScript_02.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingWorkHour_deletingWorkHour -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_02@18e8568]" name="Close" is-config="true" duration-ms="696" started-at="2019-05-08T11:11:43Z" finished-at="2019-05-08T11:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_02 -->
+      <class name="com.NemoRx.TestScripts.TestScript_01">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@6956de9]" name="Open" is-config="true" duration-ms="16963" started-at="2019-05-08T11:13:00Z" finished-at="2019-05-08T11:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="LoginAndLogout(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@6956de9]" name="LoginAndLogout" duration-ms="22901" started-at="2019-05-08T11:13:17Z" data-provider="getdata" finished-at="2019-05-08T11:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratnakarg@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathna@299299]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAndLogout -->
+        <test-method status="FAIL" signature="LoginAndLogout(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@6956de9]" name="LoginAndLogout" duration-ms="20871" started-at="2019-05-08T11:13:40Z" data-provider="getdata" finished-at="2019-05-08T11:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W&lcome@2019]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NemoRx.lib.General.sideMenu(General.java:32)
+	at com.NemoRx.TestScripts.TestScript_01.LoginAndLogout(TestScript_01.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='root']/div/header/div/div[3]/button[2]"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55575}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 92a500c522e62bdd1cd855c6209d237b
+*** Element info: {Using=xpath, value=//*[@id='root']/div/header/div/div[3]/button[2]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMO Health - My Applications]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginAndLogout -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_01@6956de9]" name="Close" is-config="true" duration-ms="676" started-at="2019-05-08T11:14:01Z" finished-at="2019-05-08T11:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_01 -->
+      <class name="com.NemoRx.TestScripts.TestScript_06">
+        <test-method status="PASS" signature="AddPatientAndMedication()[pri:0, instance:com.NemoRx.TestScripts.TestScript_06@1c2c22f3]" name="AddPatientAndMedication" duration-ms="70801" started-at="2019-05-08T11:05:29Z" finished-at="2019-05-08T11:06:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Account Number-151234513]]>
+            </line>
+            <line>
+              <![CDATA[FirstName-REHCWDNP]]>
+            </line>
+            <line>
+              <![CDATA[Date of Birth-05/071971]]>
+            </line>
+            <line>
+              <![CDATA[**Patient Added Successfully-Name Of the Patient--REHCWDNP REHCWDNP]]>
+            </line>
+            <line>
+              <![CDATA[Name of patient==REHCWDNP]]>
+            </line>
+            <line>
+              <![CDATA[Search for added patient]]>
+            </line>
+            <line>
+              <![CDATA[Add medication Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Drug Selected]]>
+            </line>
+            <line>
+              <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+            </line>
+            <line>
+              <![CDATA[Send Medication Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Medication Edit button = true]]>
+            </line>
+            <line>
+              <![CDATA[Delete Medication Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
+            </line>
+            <line>
+              <![CDATA[Edit allergy Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Delete allergy Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddPatientAndMedication -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_06 -->
+      <class name="com.NemoRx.TestScripts.TestScript_05">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_05@ba4d54]" name="Open" is-config="true" duration-ms="20134" started-at="2019-05-08T11:06:39Z" finished-at="2019-05-08T11:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="RxPrintSettingsValidation(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_05@ba4d54]" name="RxPrintSettingsValidation" duration-ms="45111" started-at="2019-05-08T11:07:00Z" data-provider="getdata" finished-at="2019-05-08T11:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratnakarg@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathna@299299]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Capitalize Prescription]]>
+            </line>
+            <line>
+              <![CDATA[Print Patient's Address]]>
+            </line>
+            <line>
+              <![CDATA[Two Signature Lines]]>
+            </line>
+            <line>
+              <![CDATA[Initials Signature Line]]>
+            </line>
+            <line>
+              <![CDATA[Print Title]]>
+            </line>
+            <line>
+              <![CDATA[Print DPS]]>
+            </line>
+            <line>
+              <![CDATA[Print NPI]]>
+            </line>
+            <line>
+              <![CDATA[Print State License Number]]>
+            </line>
+            <line>
+              <![CDATA[Print Comments]]>
+            </line>
+            <line>
+              <![CDATA[Unchecked Capitalize Prescription]]>
+            </line>
+            <line>
+              <![CDATA[Unchecked Initials Signature Line]]>
+            </line>
+            <line>
+              <![CDATA[Unchecked Print DPS]]>
+            </line>
+            <line>
+              <![CDATA[Unchecked Print Comments]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RxPrintSettingsValidation -->
+        <test-method status="FAIL" signature="RxPrintSettingsValidation(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_05@ba4d54]" name="RxPrintSettingsValidation" duration-ms="20863" started-at="2019-05-08T11:07:45Z" data-provider="getdata" finished-at="2019-05-08T11:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phani@pronixinc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W&lcome@2019]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='root']/div/header/div/div[3]/button[2] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.NemoRx.lib.General.sideMenu(General.java:32)
+	at com.NemoRx.TestScripts.TestScript_05.RxPrintSettingsValidation(TestScript_05.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='root']/div/header/div/div[3]/button[2]"}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'RATNAKAR-LAPTOP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\PRONIX7\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3da40b9d80b3c421544939d9da1be691
+*** Element info: {Using=xpath, value=//*[@id='root']/div/header/div/div[3]/button[2]}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMO Health - My Applications]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RxPrintSettingsValidation -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_05@ba4d54]" name="Close" is-config="true" duration-ms="656" started-at="2019-05-08T11:08:06Z" finished-at="2019-05-08T11:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_05 -->
+      <class name="com.NemoRx.TestScripts.TestScript_04">
+        <test-method status="PASS" signature="Open()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@6aceb1a5]" name="Open" is-config="true" duration-ms="16551" started-at="2019-05-08T11:08:06Z" finished-at="2019-05-08T11:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="SearchPatientAddMedication(java.lang.String, java.lang.String)[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@6aceb1a5]" name="SearchPatientAddMedication" duration-ms="45133" started-at="2019-05-08T11:08:23Z" data-provider="getdata" finished-at="2019-05-08T11:09:08Z">
           <params>
             <param index="0">
               <value>
@@ -62,18 +1147,67 @@
               <![CDATA[Drug Selected]]>
             </line>
             <line>
-              <![CDATA[Successfully added medication. Would you like to add another medication?]]>
+              <![CDATA[The drug has already been added for this patient]]>
             </line>
             <line>
-              <![CDATA[Successfully created allergy. Would you like to add another allergy?]]>
+              <![CDATA[The allergy already exists for the patient]]>
             </line>
           </reporter-output>
         </test-method> <!-- SearchPatientAddMedication -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@60215eee]" name="Close" is-config="true" duration-ms="639" started-at="2019-05-07T21:41:14Z" finished-at="2019-05-07T21:41:14Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.NemoRx.TestScripts.TestScript_04@6aceb1a5]" name="Close" is-config="true" duration-ms="1" started-at="2019-05-08T11:09:08Z" finished-at="2019-05-08T11:09:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
       </class> <!-- com.NemoRx.TestScripts.TestScript_04 -->
+      <class name="com.NemoRx.TestScripts.TestScript_08">
+        <test-method status="PASS" signature="MedicationsButtonsVerificationOnPatientChart()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@12bc6874]" name="MedicationsButtonsVerificationOnPatientChart" duration-ms="37869" started-at="2019-05-08T11:11:44Z" finished-at="2019-05-08T11:12:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Name of patient==rathnaa]]>
+            </line>
+            <line>
+              <![CDATA[Send Medication Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Medication Edit button = true]]>
+            </line>
+            <line>
+              <![CDATA[Delete Medication Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MedicationsButtonsVerificationOnPatientChart -->
+        <test-method status="PASS" signature="AllergiesButtonsVerificationOnPatientChart()[pri:0, instance:com.NemoRx.TestScripts.TestScript_08@12bc6874]" name="AllergiesButtonsVerificationOnPatientChart" duration-ms="38272" started-at="2019-05-08T11:12:22Z" finished-at="2019-05-08T11:13:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully login completed]]>
+            </line>
+            <line>
+              <![CDATA[Page Title-NEMORx]]>
+            </line>
+            <line>
+              <![CDATA[Name of patient==rathnaa]]>
+            </line>
+            <line>
+              <![CDATA[Edit allergy Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Delete allergy Button = true]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AllergiesButtonsVerificationOnPatientChart -->
+      </class> <!-- com.NemoRx.TestScripts.TestScript_08 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
