@@ -1,5 +1,7 @@
 package com.NemoRx.TestScripts;
 
+import java.util.Properties;
+
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -11,6 +13,9 @@ public class TestScript_06 extends General1 {
 
 	@Test
 	public static void AddPatientAndMedication() throws Exception{
+		Descriptions object = new Descriptions();
+		Properties properties = object.getProperty();
+		System.out.println(properties.getProperty("TestScript_06"));Reporter.log(properties.getProperty("TestScript_06"));
 		Global.OpenBrowser();
 		Global.LoginInto("ratnakarg@pronixinc.com", "Rathna@299299");
 		General1.AddingPatient();

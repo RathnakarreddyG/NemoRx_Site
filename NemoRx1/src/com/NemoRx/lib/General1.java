@@ -135,5 +135,10 @@ public class General1 extends General{
 		Thread.sleep(3000);
 		General.SearchPatient(Fistname);
 	}
+	public static void ValidatingMandatoryFieldsOnAddingPatient(){
+		
+		
+	}
+	
 
 }
