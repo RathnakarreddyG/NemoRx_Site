@@ -6,13 +6,9 @@ import java.util.Properties;
 
 public class Descriptions {
 	public Properties getProperty() throws IOException{
-	
-		
 		Properties obj = new Properties();
-	
-	obj.load(new FileInputStream("Data.properties"));
-	
-	return obj;
+	    obj.load(new FileInputStream("Data.properties"));
+	    return obj;
 
 }
 	

@@ -20,6 +20,7 @@ import com.NemoRx.lib.Global;
 public class TestScript_01 extends Global{
 	@BeforeClass
 	public static void Open() throws Exception {
+		
 		Descriptions object = new Descriptions();
 		Properties properties = object.getProperty();
 		System.out.println(properties.getProperty("TestScript_01"));Reporter.log(properties.getProperty("TestScript_01"));
